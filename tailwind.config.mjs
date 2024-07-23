@@ -53,6 +53,47 @@ const extendedColors = {
     '950': 'hsl(2, 73%, 15%)',
   },
 }
+const extendedFonts = {
+  sans: [
+    "GenSekiGothicTW",
+    "GenSekiGothicJP",
+    "TaipeiSansTCBeta",
+    "sans-serif",
+  ],
+  serif: [
+    "iansui",
+    "LXGWWenKaiTC",
+    "GenWanMinTW",
+    "GenWanMinJP",
+    "serif",
+  ],
+  mono: [
+    "MonaspiceRnNerdFontPropo",
+    "LXGWWenKaiMonoTC",
+    "monospace",
+  ],
+  handwrite: [],
+  text: [
+    "GenSekiGothicTW",
+    "GenSekiGothicJP",
+    "TaipeiSansTCBeta",
+    "sans-serif",
+  ],
+  title: [
+    "GenWanMinTW",
+    "GenWanMinJP",
+    "iansui",
+    "LXGWWenKaiTC",
+    "serif",
+  ],
+  subtitle: [
+    "iansui",
+    "LXGWWenKaiTC",
+    "GenWanMinTW",
+    "GenWanMinJP",
+    "serif",
+  ],
+}
 
 export default {
   content: [
@@ -62,6 +103,7 @@ export default {
   theme: {
     extend: {
       colors: extendedColors,
+      fontFamily: extendedFonts,
     },
   },
   plugins: [],
