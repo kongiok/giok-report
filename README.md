@@ -1,75 +1,41 @@
-# Nuxt 3 Minimal Starter
+---
+title: Giok Report
+description: Repository for the Giok Report frontend project
+author: Giok Org.
+---
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Giok Report 
 
-## Setup
+> Join us in passionate interaction, shaping the future together!
 
-Make sure to install the dependencies:
+# Table of Contents
 
-```bash
-# npm
-npm install
+- Quick Tour
+- Tech Stack
+- Contributing
 
-# pnpm
-pnpm install
+# Quick Tour
 
-# yarn
-yarn install
+We are Giok Org., an organization offering insights and perspectives on social movements and technological advancements.
 
-# bun
-bun install
-```
+## What We Do?
 
-## Development Server
+- Political Analysis: We provide insights on political movements and their implications.
+- Technological Advancements: We offer perspectives on the latest technological advancements.
+- Social Movements: We analyze social movements and their impact on society.
+- Book Reviews: We review books on various topics.
+- Self-Improvement: We share insights based on our self-learned content and experiences.
 
-Start the development server on `http://localhost:3000`:
+# Tech Stack
 
-```bash
-# npm
-npm run dev
+- PNPM Package Manager
+- Vue 3 With Composition API
+- Nuxt 3 
+- Nuxt Content
+- Tailwind CSS
+- TypeScript
 
-# pnpm
-pnpm run dev
+# Contributing
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+We welcome contributing to our project.
+Contributing guidelines are on progressing. Please check back later.
