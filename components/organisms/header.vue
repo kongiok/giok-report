@@ -1,9 +1,18 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
-    Component: organisms/header
-  </div>
+  <header>
+    <!-- Logo -->
+    <div class="logo">
+      <a href="" class="link"></a>
+    </div>
+    <!-- Categories -->
+  </header>
 </template>
 
-<style scoped></style>
+<style scoped>
+header {
+  @apply sticky h-14 top-0;
+
+}
+</style>

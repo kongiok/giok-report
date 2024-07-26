@@ -1,13 +1,14 @@
 <template>
 <section>
   <h1 class="text-2xl font-title text-bold text-concrete-700">
-    Hello Vue! 早安 Vue！
+  {{ $t("hello-world") }}
   </h1>
   <p class="text-xl font-title text-bold text-concrete-700 dark:text-concrete-200">
   {{ $colorMode.value }}
   </p>
 </section>
 </template>
+
 
 <style lang="css" scoped>
 section {
