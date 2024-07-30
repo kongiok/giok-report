@@ -68,18 +68,20 @@ const extendedFonts = {
     "serif",
   ],
   mono: [
-    "MonaspiceRnNerdFontPropo",
+    "MonaSpaceRn",
     "LXGWWenKaiMonoTC",
+    "MonaSpaceAr",
     "monospace",
   ],
   handwrite: [],
   text: [
     "GenSekiGothicTW",
     "GenSekiGothicJP",
-    "TaipeiSansTCBeta",
+    "TaipeiSansBeta",
     "sans-serif",
   ],
   title: [
+    "MonaSpaceAr",
     "GenWanMinTW",
     "GenWanMinJP",
     "iansui",

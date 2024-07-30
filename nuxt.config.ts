@@ -1,15 +1,16 @@
-import i18nSettings from "./i18n.config";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   modules: [
-    "@nuxt/fonts",
     "@nuxt/ui",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/i18n",
     "@nuxt/content"
+  ],
+  css: [
+    "assets/styles/fonts.css",
   ],
   i18n: {
     langDir: "locales/",

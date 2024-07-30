@@ -1,0 +1,355 @@
+/* 
+  Gen Seki Gothic TW
+*/
+
+@font-face {
+  font-family: 'GenSekiGothicTW';
+  src: url('assets/fonts/GenSekiGothic/GenSekiGothicTW-L.ttf') format('truetype');
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GenSekiGothicTW';
+  src: url('assets/fonts/GenSekiGothic/GenSekiGothicTW-R.ttf') format('truetype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GenSekiGothicTW';
+  src: url('assets/fonts/GenSekiGothic/GenSekiGothicTW-M.ttf') format('truetype');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GenSekiGothicTW';
+  src: url('assets/fonts/GenSekiGothic/GenSekiGothicTW-B.ttf') format('truetype');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GenSekiGothicTW';
+  src: url('assets/fonts/GenSekiGothic/GenSekiGothicTW-H.ttf') format('truetype');
+  font-weight: 800; /* Heavy */
+  font-style: normal;
+}
+
+/* 
+  Gen Seki Gothic JP
+*/
+
+@font-face {
+  font-family: 'GenSekiGothicJP';
+  src: url('assets/fonts/GenSekiGothic/GenSekiGothicJP-L.ttf') format('truetype');
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GenSekiGothicJP';
+  src: url('assets/fonts/GenSekiGothic/GenSekiGothicJP-R.ttf') format('truetype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GenSekiGothicJP';
+  src: url('assets/fonts/GenSekiGothic/GenSekiGothicJP-M.ttf') format('truetype');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GenSekiGothicJP';
+  src: url('assets/fonts/GenSekiGothic/GenSekiGothicJP-B.ttf') format('truetype');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GenSekiGothicJP';
+  src: url('assets/fonts/GenSekiGothic/GenSekiGothicJP-H.ttf') format('truetype');
+  font-weight: 800; /* Heavy */
+  font-style: normal;
+}
+
+/* 
+  Gen Wan Min TW
+*/
+
+
+@font-face {
+  font-family: 'GenWanMinTW';
+  src: url('assets/fonts/GenWanMin/GenWanMinTW-EL.ttf') format('truetype');
+  font-weight: 200; /* Extra Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GenWanMinTW';
+  src: url('assets/fonts/GenWanMin/GenWanMinTW-L.ttf') format('truetype');
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GenWanMinTW';
+  src: url('assets/fonts/GenWanMin/GenWanMinTW-M.ttf') format('truetype');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GenWanMinTW';
+  src: url('assets/fonts/GenWanMin/GenWanMinTW-R.ttf') format('truetype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GenWanMinTW';
+  src: url('assets/fonts/GenWanMin/GenWanMinTW-SB.ttf') format('truetype');
+  font-weight: 700; /* Semi Bold */
+  font-style: normal;
+}
+
+/* 
+  Gen Wan Min JP
+*/
+
+@font-face {
+  font-family: 'GenWanMinJP';
+  src: url('assets/fonts/GenWanMin/GenWanMinJP-EL.ttf') format('truetype');
+  font-weight: 200; /* Extra Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GenWanMinJP';
+  src: url('assets/fonts/GenWanMin/GenWanMinJP-L.ttf') format('truetype');
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GenWanMinJP';
+  src: url('assets/fonts/GenWanMin/GenWanMinJP-M.ttf') format('truetype');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GenWanMinJP';
+  src: url('assets/fonts/GenWanMin/GenWanMinJP-R.ttf') format('truetype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GenWanMinJP';
+  src: url('assets/fonts/GenWanMin/GenWanMinJP-SB.ttf') format('truetype');
+  font-weight: 700; /* Semi Bold */
+  font-style: normal;
+}
+
+/* 
+  Iansui
+*/
+
+@font-face {
+  font-family: 'Iansui';
+  src: url("assets/fonts/iansui/Iansui-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 
+  LXGW WenKai TC
+*/
+
+@font-face {
+  font-family: "LXGWWenKaiTC";
+  src: url("assets/fonts/lxgw-wenkai-tc-v1.330/LXGWWenKaiTC-Light.ttf");
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LXGWWenKaiTC";
+  src: url("assets/fonts/lxgw-wenkai-tc-v1.330/LXGWWenKaiTC-Regular.ttf");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LXGWWenKaiTC";
+  src: url("assets/fonts/lxgw-wenkai-tc-v1.330/LXGWWenKaiTC-Bold.ttf");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LXGWWenKaiMonoTC";
+  src: url("assets/fonts/lxgw-wenkai-tc-v1.330/LXGWWenKaiMonoTC-Light.ttf");
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LXGWWenKaiMonoTC";
+  src: url("assets/fonts/lxgw-wenkai-tc-v1.330/LXGWWenKaiMonoTC-Regular.ttf");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LXGWWenKaiMonoTC";
+  src: url("assets/fonts/lxgw-wenkai-tc-v1.330/LXGWWenKaiMonoTC-Bold.ttf");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+/*
+  Taipei Sans Beta
+*/
+
+@font-face {
+  font-family: "TaipeiSansBeta";
+  src: url("assets/fonts/taipei-sans-beta/TaipeiSansTCBeta-Light.ttf");
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TaipeiSansBeta";
+  src: url("assets/fonts/taipei-sans-beta/TaipeiSansTCBeta-Regular.ttf");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TaipeiSansBeta";
+  src: url("assets/fonts/taipei-sans-beta/TaipeiSansTCBeta-Bold.ttf");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+/* 
+  MonaSpace Nerd Font
+*/
+
+@font-face {
+  font-family: "MonaSpaceAr";
+  src: url("assets/fonts/Monaspace/MonaspiceArNerdFontPropo-Light.otf");
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MonaSpaceAr";
+  src: url("assets/fonts/Monaspace/MonaspiceArNerdFontPropo-LightItalic.otf");
+  font-weight: 300; /* Light */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "MonaSpaceAr";
+  src: url("assets/fonts/Monaspace/MonaspiceArNerdFontPropo-Regular.otf");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MonaSpaceAr";
+  src: url("assets/fonts/Monaspace/MonaspiceArNerdFontPropo-Italic.otf");
+  font-weight: 400; /* Regular */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "MonaSpaceAr";
+  src: url("assets/fonts/Monaspace/MonaspiceArNerdFontPropo-Medium.otf");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MonaSpaceAr";
+  src: url("assets/fonts/Monaspace/MonaspiceArNerdFontPropo-MediumItalic.otf");
+  font-weight: 500; /* Medium */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "MonaSpaceAr";
+  src: url("assets/fonts/Monaspace/MonaspiceArNerdFontPropo-Bold.otf");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MonaSpaceAr";
+  src: url("assets/fonts/Monaspace/MonaspiceArNerdFontPropo-BoldItalic.otf");
+  font-weight: 700; /* Bold */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "MonaSpaceRn";
+  src: url("assets/fonts/Monaspace/MonaspiceRnNerdFontPropo-Light.otf");
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MonaSpaceRn";
+  src: url("assets/fonts/Monaspace/MonaspiceRnNerdFontPropo-LightItalic.otf");
+  font-weight: 300; /* Light */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "MonaSpaceRn";
+  src: url("assets/fonts/Monaspace/MonaspiceRnNerdFontPropo-Regular.otf");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MonaSpaceRn";
+  src: url("assets/fonts/Monaspace/MonaspiceRnNerdFontPropo-Italic.otf");
+  font-weight: 400; /* Regular */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "MonaSpaceRn";
+  src: url("assets/fonts/Monaspace/MonaspiceRnNerdFontPropo-Medium.otf");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MonaSpaceRn";
+  src: url("assets/fonts/Monaspace/MonaspiceRnNerdFontPropo-MediumItalic.otf");
+  font-weight: 500; /* Medium */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "MonaSpaceRn";
+  src: url("assets/fonts/Monaspace/MonaspiceRnNerdFontPropo-Bold.otf");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MonaSpaceRn";
+  src: url("assets/fonts/Monaspace/MonaspiceRnNerdFontPropo-BoldItalic.otf");
+  font-weight: 700; /* Bold */
+  font-style: italic;
+}
+

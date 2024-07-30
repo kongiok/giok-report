@@ -21,4 +21,7 @@ header {
 .link {
   @apply text-xl font-title font-bold text-concrete-700 dark:text-concrete-200;
 }
+.logo {
+  @apply font-title font-extrabold text-2xl;
+}
 </style>
