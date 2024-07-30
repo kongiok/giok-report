@@ -4,7 +4,9 @@
   <header>
     <!-- Logo -->
     <div class="logo">
-      <a href="" class="link"></a>
+      <NuxtLink to="/" class="link">
+        {{$t("app_name")}}
+      </NuxtLink>
     </div>
     <!-- Categories -->
   </header>
@@ -12,7 +14,11 @@
 
 <style scoped>
 header {
-  @apply sticky h-14 top-0;
-
+  @apply sticky top-0 left-0 right-0;
+  @apply w-svw max-w-full h-14;
+  @apply flex items-center justify-around;
+}
+.link {
+  @apply text-xl font-title font-bold text-concrete-700 dark:text-concrete-200;
 }
 </style>
