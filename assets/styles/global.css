@@ -1,0 +1,127 @@
+:root {
+  --color-primary: var(--color-goldenrod-500);
+  --color-primary-hover: var(--color-goldenrod-600);
+  --color-primary-active: var(--color-goldenrod-700);
+  --color-primary-disabled: var(--color-goldenrod-100);
+
+  --color-secondary: var(--color-olive-500)
+  --color-secondary-hover: var(--color-olive-600);
+  --color-secondary-active: var(--color-olive-700);
+  --color-secondary-disabled: var(--color-olive-100);
+
+  --color-tertiary: var(--color-burnt-sienna-500);
+  --color-tertiary-hover: var(--color-burnt-sienna-600);
+  --color-tertiary-active: var(--color-burnt-sienna-700);
+  --color-tertiary-disabled: var(--color-burnt-sienna-100);
+
+  /* White Color */
+  --color-foreground: var(--color-concrete-700);
+  /* Black Color */
+  --color-background: var(--color-concrete-100);
+  --color-border: var(--color-concrete-800);
+  --color-disabled: var(--color-concrete-300);
+
+  --color-accent: var(--color-burnt-sienna-700);
+  --color-accent-hover: var(--color-burnt-sienna-300);
+  --color-accent-active: var(--color-burnt-sienna-900);
+
+  --color-success: var(--color-olive-700);
+  --color-success-hover: var(--color-olive-300);
+  --color-success-active: var(--color-olive-900);
+
+  --color-warning: var(--color-goldenrod-700);
+  --color-warning-hover: var(--color-goldenrod-300);
+  --color-warning-active: var(--color-goldenrod-900);
+
+  --color-error: var(--color-burnt-sienna-700);
+  --color-error-hover:  var(--color-burnt-sienna-300);
+  --color-error-active: var(--color-burnt-sienna-900);
+  
+  --color-info: var(--color-azure-radiance-700);
+  --color-info-hover: var(--color-azure-radiance-300);
+  --color-info-active:  var(--color-azure-radiance-900);
+
+  /* Concrete */
+
+  --color-concrete-50: 0, 0%, 97%;
+  --color-concrete-100: 0, 0%, 95%;
+  --color-concrete-200: 0, 0%, 86%;
+  --color-concrete-300: 0, 0%, 74%;
+  --color-concrete-400: 0, 0%, 60%;
+  --color-concrete-500: 0, 0%, 49%;
+  --color-concrete-600: 0, 0%, 40%;
+  --color-concrete-700: 0, 0%, 32%;
+  --color-concrete-800: 0, 0%, 27%;
+  --color-concrete-900: 0, 0%, 24%;
+  --color-concrete-950: 0, 0%, 16%;
+
+  /* Olive */
+
+  --color-olive-50: 78, 52%, 95%;
+  --color-olive-100: 81, 53%, 89%;
+  --color-olive-200: 80, 50%, 80%;
+  --color-olive-300: 81, 49%, 67%;
+  --color-olive-400: 82, 44%, 55%;
+  --color-olive-500: 83, 46%, 44%;
+  --color-olive-600: 84, 49%, 37%;
+  --color-olive-700: 85, 45%, 27%;
+  --color-olive-800: 85, 40%, 23%;
+  --color-olive-900: 88, 36%, 20%;
+  --color-olive-950: 89, 45%, 10%;
+
+  /* Goldenrod */
+
+  --color-goldenrod-50: 47, 90%, 96%;
+  --color-goldenrod-100: 45, 100%, 89%;
+  --color-goldenrod-200: 47, 82%, 89%;
+  --color-goldenrod-300: 45, 84%, 68%;
+  --color-goldenrod-400: 42, 84%, 56%;
+  --color-goldenrod-500: 37, 80%, 50%;
+  --color-goldenrod-600: 31, 82%, 44%;
+  --color-goldenrod-700: 25, 79%, 37%;
+  --color-goldenrod-800: 22, 71%, 31%;
+  --color-goldenrod-900: 20, 67%, 26%;
+  --color-goldenrod-950: 20, 81%, 14%;
+  
+  /* Burnt Sienna */
+  --color-burnt-sienna-50: 23, 89%, 96%;
+  --color-burnt-sienna-100: 24, 90%, 92%;
+  --color-burnt-sienna-200: 21, 88%, 83%;
+  --color-burnt-sienna-300: 20, 89%, 72%;
+  --color-burnt-sienna-400: 16, 87%, 61%;
+  --color-burnt-sienna-500: 13, 86%, 53%;
+  --color-burnt-sienna-600: 9, 82%, 48%;
+  --color-burnt-sienna-700: 7, 80%, 40%;
+  --color-burnt-sienna-800: 4, 72%, 34%;
+  --color-burnt-sienna-900: 4, 68%, 28%;
+  --color-burnt-sienna-950: 2, 73%, 15%;
+
+  /* Azure Radiance */
+  --color-azure-radiance-50: 199, 100%, 97%;
+  --color-azure-radiance-100: 198, 100%, 93%;
+  --color-azure-radiance-200: 197, 100%, 87%;
+  --color-azure-radiance-300: 196, 100%, 78%;
+  --color-azure-radiance-400: 197, 99%, 68%;
+  --color-azure-radiance-500: 201, 96%, 60%;
+  --color-azure-radiance-600: 205, 87%, 53%;
+  --color-azure-radiance-700: 209, 80%, 51%;
+  --color-azure-radiance-800: 210, 75%, 40%;
+  --color-azure-radiance-900: 208, 68%, 33%;
+  --color-azure-radiance-950: 210, 61%, 21%;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-foreground: var(--color-concrete-100);
+    --color-background: var(--color-concrete-900);
+    --color-border: var(--color-concrete-200);
+    --color-disabled: var(--color-concrete-950);
+    --color-accent-active: var(--color-burnt-sienna-500);
+  }
+}
+.dark {
+  --color-foreground: var(--color-concrete-100);
+  --color-background: var(--color-concrete-900);
+  --color-border: var(--color-concrete-200);
+  --color-disabled: var(--color-concrete-950);
+  --color-accent-active: var(--color-burnt-sienna-500);
+}

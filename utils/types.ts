@@ -10,3 +10,10 @@ export type Doc = {
   updatedAt: string;
   content: string;
 }
+
+export type Link = {
+  title: string;
+  url: string;
+  description?: string;
+  icon?: string;
+}
