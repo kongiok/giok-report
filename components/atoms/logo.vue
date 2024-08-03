@@ -1,8 +1,11 @@
 <script setup lang="ts">
+const props = defineProps<{
+  hasBg: Boolean;
+}>()
 </script>
 
 <template>
-  <div class="logo" role="logo" aria-atomic="true">
+  <div class="logo" :class="{'bg': hasBg}" role="logo" aria-atomic="true">
     <nuxt-link-locale to="/" class="link">
       <h1 class="text">{{ $t("app.title") }}</h1>
     </nuxt-link-locale>
@@ -12,7 +15,9 @@
 <style scoped>
 .logo {
   @apply w-32 h-16 grid place-content-center;
-  @apply rounded-md;
+  @apply rounded-md active:shadow-inner;
+}
+.logo.bg{
   @apply shadow hover:shadow-md active:shadow-inner;
   @apply transition-all duration-150;
 }

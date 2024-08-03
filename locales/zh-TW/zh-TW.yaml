@@ -1,0 +1,19 @@
+app:
+  name: "鈺報"
+  description: "鈺報你知，未來無阻！"
+  title: "鈺報"
+
+nav:
+  about: "關於我們"
+  techs: "科技開箱"
+  politics: "時事解析"
+  anecdotes: "淡水記事"
+  studies: "學習紀錄"
+  services: "跟我們說說"
+  recommends: "好站推推"
+  categories: "猜你想看的"
+  search: "想找些什麼？"
+  updates: "版本更迭"
+
+sites:
+  kongiok: "個人首頁 —— 趕工中"

@@ -1,0 +1,19 @@
+app:
+  name: "Giok Press"
+  description: "Passionate interaction, co-create the future, journey with you!"
+  title: "Giok"
+
+nav:
+  about: "about us"
+  techs: "tech uboxing"
+  politics: "political analysis"
+  anecdotes: "Tamsui anecdotes"
+  studies: "learning records"
+  services: "Need Help?"
+  categories: "Guess what you want to see"
+  recommends: "Recommendations"
+  search: "Searching for interesting?"
+  updates: "Version Updates"
+
+sites:
+  kongiok: "Personal Homepage —— Under Construction"

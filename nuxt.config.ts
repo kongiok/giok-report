@@ -11,14 +11,15 @@ export default defineNuxtConfig({
   ],
   css: [
     "assets/styles/fonts.css",
+    "assets/styles/global.css",
   ],
   i18n: {
     langDir: "locales/",
     strategy: "prefix",
     locales: [
-      { code: "zh-tw", iso: "zh-TW", file: "zh-TW.yaml" },
-      { code: "en", iso: "en-US", file: "en-US.yaml" },
-      { code: "tw-tw", iso: "nan-TW", file: "tw-TW.yaml" },
+      { code: "zh", iso: "zh-TW", files: ["zh-TW/zh-TW.yaml"] },
+      { code: "en", iso: "en-US", files: ["en-US/en-US.yaml"] },
+      { code: "tw-tw", iso: "nan-TW", files: ["tw-TW/tw-TW.yaml"]},
     ],
     defaultLocale: "zh-tw",
   },

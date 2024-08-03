@@ -10,9 +10,14 @@
 
 <style scoped>
 .wrapper {
-  @apply min-h-dvh max-w-full bg-concrete-100;
+  @apply min-h-dvh max-w-full;
   @apply grid grid-rows-[auto,1fr,auto];
-  @apply dark:bg-concrete-900;
+  @apply bg-concrete-100 text-concrete-900;
+}
+.dark {
+  .wrapper {
+    @apply bg-concrete-900 text-concrete-100;
+  }
 }
 
 </style>
