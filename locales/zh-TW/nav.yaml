@@ -1,8 +1,17 @@
 header:
-  about: about
-  techs: tech Unbox
-  studies: Self Learn
-  anecdotes: Tamsui
-  locales: locales
+  about: 關於我們 
+  techs: 科技開箱
+  studies: 學習足跡
+  anecdotes: 淡水記事
+  locales: 語言切換
 
 slideover:
+  categories: 猜你想看的
+  recommends: 好站推薦
+  studies: 學習紀錄
+  techs: 科技開箱
+  politics: 時事解析
+  sites:
+    kongiok: 個人首頁 —— 趕工中
+  services: 跟我們說說
+  updates: 版本更迭

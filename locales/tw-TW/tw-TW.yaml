@@ -2,10 +2,3 @@ app:
   name: "Giok Press"
   description: "Passionate interaction, co-create the future, journey with you!"
   title: "Giok"
-
-nav:
-  about: "about us"
-  techs: "technology"
-  politics: "politics"
-  anecdotes: "Tamsui"
-  studies: "studies"

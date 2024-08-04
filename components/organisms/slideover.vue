@@ -64,7 +64,7 @@ const {isOpen:isSlideoverOpen, close: closeSlideover} = useSlideover();
       aria-details="Navigation of Site"
     >
       <h1 class="heading">
-        {{ $t('nav.categories') }}
+        {{ $t('slideover.categories') }}
       </h1>
       <div class="part">
         <atoms-link
@@ -72,31 +72,31 @@ const {isOpen:isSlideoverOpen, close: closeSlideover} = useSlideover();
           class="link"
           icon="ri:article-line"
         >
-          {{ $t('nav.studies') }}
+          {{ $t('slideover.studies') }}
         </atoms-link>
         <atoms-link
           to="/news/techs/"
           class="link"
           icon="streamline:ai-chip-spark"
         >
-          {{ $t('nav.techs') }}
+          {{ $t('slideover.techs') }}
         </atoms-link>
         <atoms-link
           to="/news/politics/"
           class="link"
           icon="streamline:politics-speech"
         >
-          {{ $t('nav.politics') }}
+          {{ $t('slideover.politics') }}
         </atoms-link>
       </div>
       <atoms-divider />
-      <h1 class="heading">{{ $t('nav.recommends') }}</h1>
+      <h1 class="heading">{{ $t('slideover.recommends') }}</h1>
       <div class="part">
         <atoms-link
           to="/api/recommends/kongiok"
           class="link"
         >
-          {{ $t('sites.kongiok') }}
+          {{ $t('slideover.sites.kongiok') }}
         </atoms-link>
       </div>
     </nav>
@@ -109,13 +109,13 @@ const {isOpen:isSlideoverOpen, close: closeSlideover} = useSlideover();
         to="/info/contact"
         icon="mdi:contact"
       >
-      {{ $t('nav.services') }}
+      {{ $t('slideover.services') }}
       </atoms-link>
       <atoms-link
         to="/info/updates"
         icon="ic:baseline-update"
       >
-      {{ $t('nav.updates') }}
+      {{ $t('slideover.updates') }}
       </atoms-link>
     </footer>
     </template>
