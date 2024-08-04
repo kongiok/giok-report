@@ -1,0 +1,17 @@
+header:
+  about: about
+  techs: tech
+  studies: Studies
+  anecdotes: Tamsui
+  locales: locales
+
+slideover:
+  categories: Guess what you want
+  recommends: What we recommend to you
+  studies: Learning records
+  techs: Technology Unboxing
+  politics: Political Analysis
+  sites:
+    kongiok: Personal Homepage -- Under Construction
+  services: Need Help?
+  updates: Version Updates

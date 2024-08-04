@@ -11,9 +11,21 @@ export type Doc = {
   content: string;
 }
 
-export type Link = {
-  title: string;
-  url: string;
+export type Item = {
+  label: string;
   description?: string;
   icon?: string;
+}
+
+export type Link = Item & {
+  to: string;
+}
+
+export type Button = Item & {
+  onClick: () => void;
+}
+
+export type DropdownItem = Item & {
+  to?: string;
+  click?: () => void;
 }

@@ -1,43 +1,62 @@
 <script setup lang="ts">
 import { useI18n } from "vue-i18n";
-import type { Link } from "~/utils/types";
+import type { DropdownItem, Link } from "~/utils/types";
 import Slideover from "./slideover.vue";
 
 
+const colorMode = useColorMode();
+const slideover = useSlideover();
+
 const { t } = useI18n();
+const switchLocale = useSwitchLocalePath();
+
 const navItems: Link[] = [
   { 
-    title: t("nav.about"),
-    url: "/about",
+    label: t("header.about"),
+    to: "/info/about",
     icon: "mdi:about-circle-outline"
   },
   { 
-    title: t("nav.techs"),
-    url: "/about",
+    label: t("header.techs"),
+    to: "/news/techs",
     icon: "ri:article-line"
   },
   {
-    title: t("nav.studies"),
-    url: "/studies",
+    label: t("header.studies"),
+    to: "/studies",
     icon: "mdi:bookshelf"
   },
   {
-    title: t("nav.anecdotes"),
-    url: "/",
+    label: t("header.anecdotes"),
+    to: "/anecdotes",
     icon: "mdi:place-outline"
   },
 ];
 
-const colorMode = useColorMode();
+const locales: DropdownItem[][] = [[
+  {
+    label: "English",
+    to: switchLocale("en"),
+  },
+  {
+    label: "正體中文",
+    to: switchLocale("zh"),
+  },
+  {
+    label: "台語",
+    to: switchLocale("tw-tw"),
+  },
+]]; 
+
+
 const toggleColorMode = () => {
   colorMode.value = colorMode.value === "light" ? "dark" : "light";
 };
 
-const slideover = useSlideover();
 const toggleSlideover = () => slideover.isOpen.value ? slideover.close : slideover.open(Slideover);
 
+
 onMounted(()=>{
-  console.log(slideover);
 })
 </script>
 
@@ -49,7 +68,7 @@ onMounted(()=>{
       aria-label="button"
       aria-atomic="true"
     >
-      <Icon name="icon-park:hamburger-button" class="icon"/>
+      <Icon name="icon-park:hamburger-button" class="icon" />
     </u-button>
     <u-button class="trigger appearence" 
       @click="toggleColorMode"
@@ -67,9 +86,27 @@ onMounted(()=>{
         v-if="colorMode.value === 'dark' "
        />
     </u-button>
+    <u-dropdown class="locales"
+      label="locales"
+      :items="locales"
+    >
+      <u-button 
+        class="trigger"
+        label="locales"
+      >
+        <span class="text">{{ $t('header.locales') }}</span>
+        <Icon name="ic:baseline-language" class="icon"/>
+      </u-button>
+      <template #item="{item}">
+        <nuxt-link class="link"
+          :to="item.to">
+          <p>{{ item.label }}</p>
+        </nuxt-link>
+      </template>
+    </u-dropdown>
   </div>
   <div class="center">
-    <atoms-logo />
+    <atoms-logo :has-bg="false" class="logo" />
   </div>
   <div class="right">
     <nav class="nav"
@@ -78,10 +115,10 @@ onMounted(()=>{
     >
       <nuxt-link-locale v-for="(item, index) in navItems" 
         :key="index"
-        :to="item.url" class="link"
+        :to="item.to" class="link"
       >
         <Icon v-if="item.icon" :name="item.icon" class="icon"/>
-        <p class="text">{{ item.title }}</p>
+        <p class="text">{{ item.label }}</p>
       </nuxt-link-locale>
     </nav>
   </div>
@@ -91,12 +128,15 @@ onMounted(()=>{
 <style scoped>
 header {
   @apply sticky top-0 left-0 right-0;
-  @apply w-svw max-w-full h-28 z-50 px-3;
+  @apply w-svw max-w-full h-28 z-50 px-2;
   @apply flex items-center justify-center;
   @apply bg-transparent backdrop-blur-sm;
-  /* @apply border-b-2 border-neutral-border; */
+  @apply border-b-2 border-neutral-border;
   @screen tablet {
-    @apply h-24 px-8;
+    @apply h-16 px-8;
+  }
+  @screen laptop {
+    @apply h-20 px-12;
   }
   .left, .right, .center {
     @apply flex flex-1;
@@ -112,6 +152,7 @@ header {
   @apply justify-end;
 }
 
+
 .nav {
   @apply hidden;
   @apply mr-3;
@@ -120,17 +161,21 @@ header {
   }
 }
 .nav .link {
-  @apply overflow-hidden h-12 w-28;
+  @apply overflow-hidden h-10 w-16;
+  @screen laptop {
+    @apply w-20;
+  }
   .text {
     @apply font-serif font-semibold capitalize;
     @apply translate-y-8 opacity-0;
+    @apply text-pretty;
   }
   .icon {
     @apply relative m-0;
     @apply top-1/2 left-1/2 opacity-100;
     @apply transform -translate-y-1/2 -translate-x-1/2;
     @apply transition-all duration-300;
-    @apply text-2xl;
+    @apply text-xl;
   }
   &:hover {
     @apply transform scale-110;
@@ -168,6 +213,10 @@ header {
   }
 }
 .trigger {
+  @apply m-0;
+  @screen tablet {
+    @apply m-4;
+  }
   @apply bg-transparent shadow-none;
   @apply active:shadow-inner;
   .sidebar {
@@ -175,7 +224,7 @@ header {
     @apply p-3;
   }
   .icon {
-    @apply text-neutral-fg text-2xl;
+    @apply text-neutral-fg text-xl;
     @apply active:text-goldenrod-500;
     @apply transition-colors duration-150;
   }
@@ -190,5 +239,24 @@ header {
 }
 .slideover {
   @apply bg-concrete-100;
+}
+.locales {
+  .trigger {
+    @apply bg-transparent shadow-none;
+    @apply active:shadow-inner;
+    @apply font-serif font-bold;
+    .text {
+      @apply hidden;
+    }
+    @screen tablet {
+      @apply inline-block;
+    }
+    .text, .icon {
+      @apply text-concrete-800 dark:text-concrete-200;
+      > path {
+        @apply stroke-concrete-800 dark:stroke-concrete-200;
+      }
+    }
+  }
 }
 </style>

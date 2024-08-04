@@ -17,10 +17,30 @@ export default defineNuxtConfig({
     langDir: "locales/",
     strategy: "prefix",
     locales: [
-      { code: "zh", iso: "zh-TW", files: ["zh-TW/zh-TW.yaml"] },
-      { code: "en", iso: "en-US", files: ["en-US/en-US.yaml"] },
-      { code: "tw-tw", iso: "nan-TW", files: ["tw-TW/tw-TW.yaml"]},
+      { code: "zh",
+        iso: "zh-TW",
+        files: [
+          "zh-TW/zh-TW.yaml",
+          "zh-TW/nav.yaml"
+        ]
+      },
+      { 
+        code: "en",
+        iso: "en-US",
+        files: [
+          "en-US/en-US.yaml",
+           "en-US/nav.yaml"
+        ]
+      },
+      {
+        code: "tw-tw",
+        iso: "nan-TW",
+        files: [
+          "tw-TW/tw-TW.yaml",
+          "tw-TW/nav.yaml"
+        ]
+      },
     ],
-    defaultLocale: "zh-tw",
+    defaultLocale: "zh",
   },
 })
