@@ -14,17 +14,17 @@ const props = defineProps<{
 
 <style scoped>
 .logo {
-  @apply w-32 h-16 grid place-content-center;
+  @apply max-w-24 grid place-content-center;
   @apply rounded-md active:shadow-inner;
 }
 .logo.bg{
-  @apply shadow hover:shadow-md active:shadow-inner;
+  @apply shadow-none active:shadow-inner;
   @apply transition-all duration-150;
 }
 .text {
   @apply inline-block;
-  @apply text-3xl font-title font-semibold text-pretty;
+  @apply text-2xl font-title font-semibold text-pretty tracking-widest uppercase;
   @apply text-transparent bg-clip-text bg-gradient-to-br;
-  @apply from-goldenrod-400 via-goldenrod-300 to-burnt-sienna-700
+  @apply from-goldenrod-500 via-burnt-sienna-300 to-goldenrod-600;
 }
 </style>

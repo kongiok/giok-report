@@ -128,7 +128,7 @@ onMounted(()=>{
 <style scoped>
 header {
   @apply sticky top-0 left-0 right-0;
-  @apply w-svw max-w-full h-28 z-50 px-2;
+  @apply w-svw max-w-full h-20 z-50 px-2;
   @apply flex items-center justify-center;
   @apply bg-transparent backdrop-blur-sm;
   @apply border-b-2 border-neutral-border;
@@ -171,10 +171,9 @@ header {
     @apply text-pretty;
   }
   .icon {
-    @apply relative m-0;
+    @apply relative m-1;
     @apply top-1/2 left-1/2 opacity-100;
-    @apply transform -translate-y-1/2 -translate-x-1/2;
-    @apply transition-all duration-300;
+    @apply transform -translate-x-1/2 -translate-y-1/2;
     @apply text-xl;
   }
   &:hover {
@@ -230,6 +229,10 @@ header {
   }
 }
 .appearence {
+  @apply hidden;
+  @screen tablet {
+    @apply inline-block;
+  }
   .icon {
     @apply block;
   }
