@@ -93,8 +93,10 @@ const {isOpen:isSlideoverOpen, close: closeSlideover} = useSlideover();
       <h1 class="heading">{{ $t('slideover.recommends') }}</h1>
       <div class="part">
         <atoms-link
-          to="/api/recommends/kongiok"
+          to="/site/google"
+          target="_parent"
           class="link"
+          icon="tabler:external-link"
         >
           {{ $t('slideover.sites.kongiok') }}
         </atoms-link>
