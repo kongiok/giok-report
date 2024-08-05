@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/i18n",
-    "@nuxt/content"
+    "@nuxt/content",
+    "@nuxt/test-utils/module"
   ],
   css: [
     "assets/styles/fonts.css",
@@ -42,5 +43,5 @@ export default defineNuxtConfig({
       },
     ],
     defaultLocale: "zh",
-  },
+  }
 })
