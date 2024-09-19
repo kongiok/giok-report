@@ -2,7 +2,13 @@
 dist/
 
 # generated types
-.astro/
+.output/
+.data/
+.cache/
+
+# nuxt
+.nuxt/
+.nitro/
 
 # dependencies
 node_modules/
@@ -22,3 +28,4 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+.vscode/
