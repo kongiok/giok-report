@@ -11,28 +11,44 @@ export default defineNuxtConfig({
     "/": { prerender: true },
   },
   i18n: {
+    strategy: "prefix",
     langDir: "locales/",
+    defaultLocale: "zh-TW",
     locales: [
       {
         code: "en-US",
-        iso: "en-US",
+        language: "en-US",
         name: "English",
-        files: ["en-US/common.json", "en-US/nav.json"],
+        files: [
+          "en-US/common.json",
+          "en-US/nav.json",
+          "en-US/error.json",
+          "en-US/docs.json",
+        ],
       },
       {
         code: "zh-TW",
-        iso: "zh-TW",
+        language: "zh-TW",
         name: "繁體中文",
-        files: ["zh-TW/common.json", "zh-TW/nav.json"],
+        files: [
+          "zh-TW/common.json",
+          "zh-TW/nav.json",
+          "zh-TW/error.json",
+          "zh-TW/docs.json",
+        ],
       },
       {
         code: "min-TW",
-        iso: "min-TW",
+        language: "min-TW",
         name: "台語",
-        files: ["min-TW/common.json", "min-TW/nav.json"],
+        files: [
+          "min-TW/common.json",
+          "min-TW/nav.json",
+          "min-TW/error.json",
+          "min-TW/docs.json",
+        ],
       },
     ],
-    defaultLocale: "zh-TW",
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: "i18n_redirected",
