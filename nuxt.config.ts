@@ -13,7 +13,9 @@ export default defineNuxtConfig({
   ],
 
   routeRules: {
-    "/": { prerender: true },
+    "/zh-TW": { prerender: true },
+    "/min-TW": { prerender: true },
+    "/en-US": { prerender: true },
   },
   i18n: {
     strategy: "prefix",
@@ -27,6 +29,9 @@ export default defineNuxtConfig({
       redirectOn: "root",
     },
   },
-
+  content: {
+    defaultLocale,
+    locales: locales.map((locale) => locale.language),
+  },
   compatibilityDate: "2024-09-19",
 });
