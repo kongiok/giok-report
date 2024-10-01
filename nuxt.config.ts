@@ -10,6 +10,8 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/i18n",
+    "@nuxtjs/color-mode",
+    "@nuxt/icon",
   ],
 
   routeRules: {
@@ -32,6 +34,9 @@ export default defineNuxtConfig({
   content: {
     defaultLocale,
     locales: locales.map((locale) => locale.language),
+  },
+  tailwindcss: {
+    cssPath: "~/assets/styles/tailwind.css",
   },
   compatibilityDate: "2024-09-19",
 });
