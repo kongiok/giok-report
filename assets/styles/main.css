@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --tsui-neutral-brand: oklch(0.44 0.68 121.62);
+  --tsui-primary-brand: oklch(0.84 1.36 45.12);
+  --tsui-secondary-brand: oklch(0.67 1.08 121.94);
+  --tsui-accent-brand: oklch(0.62 1.19 15.83);
+  --tsui-info-brand: oklch(0.58 1.21 228.78);
+
+  --tsui-neutral-50: oklch(0.96 1.66 0);
+  --tsui-neutral-100: oklch(0.9 1.56 0);
+  --tsui-neutral-200: oklch(0.75 1.3 0);
+  --tsui-neutral-300: oklch(0.59 1.03 0);
+  --tsui-neutral-400: oklch(0.5 0.81 122.86);
+  --tsui-neutral-500: oklch(0.45 0.71 121.82);
+  --tsui-neutral-600: oklch(0.43 0.67 120);
+  --tsui-neutral-700: oklch(0.41 0.65 120);
+  --tsui-neutral-800: oklch(0.35 0.58 120);
+  --tsui-neutral-900: oklch(0.27 0.46 0);
+  --tsui-neutral-950: oklch(0.16 0.28 0);
+
+  --tsui-accent-50: oklch(0.99 1.72 0);
+  --tsui-accent-100: oklch(0.95 1.65 13.85);
+  --tsui-accent-200: oklch(0.85 1.49 13.33);
+  --tsui-accent-300: oklch(0.74 1.33 14.16);
+  --tsui-accent-400: oklch(0.67 1.23 15.35);
+  --tsui-accent-500: oklch(0.63 1.2 15.87);
+  --tsui-accent-600: oklch(0.6 1.15 16.82);
+  --tsui-accent-700: oklch(0.54 1.03 16.89);
+  --tsui-accent-800: oklch(0.43 0.8 16.47);
+  --tsui-accent-900: oklch(0.27 0.5 16.62);
+  --tsui-accent-950: oklch(0.08 0.14 21.82);
+
+  --tsui-primary-50: oklch(0.96 1.66 40);
+  --tsui-primary-100: oklch(0.94 1.62 41.25);
+  --tsui-primary-200: oklch(0.9 1.52 42.16);
+  --tsui-primary-300: oklch(0.86 1.43 43.24);
+  --tsui-primary-400: oklch(0.84 1.38 44.38);
+  --tsui-primary-500: oklch(0.84 1.36 44.35);
+  --tsui-primary-600: oklch(0.81 1.32 45);
+  --tsui-primary-700: oklch(0.73 1.19 44.35);
+  --tsui-primary-800: oklch(0.57 0.93 43.81);
+  --tsui-primary-900: oklch(0.35 0.58 42.58);
+  --tsui-primary-950: oklch(0.09 0.16 0);
+
+  --tsui-secondary-50: oklch(0.95 1.65 0);
+  --tsui-secondary-100: oklch(0.92 1.59 0);
+  --tsui-secondary-200: oklch(0.83 1.44 0);
+  --tsui-secondary-300: oklch(0.75 1.29 0);
+  --tsui-secondary-400: oklch(0.69 1.17 124.62);
+  --tsui-secondary-500: oklch(0.67 1.1 120);
+  --tsui-secondary-600: oklch(0.65 1.06 120);
+  --tsui-secondary-700: oklch(0.58 0.98 120);
+  --tsui-secondary-800: oklch(0.46 0.79 0);
+  --tsui-secondary-900: oklch(0.29 0.5 0);
+  --tsui-secondary-950: oklch(0.09 0.15 0);
+
+  --tsui-info-50: oklch(0.95 1.65 226.15);
+  --tsui-info-100: oklch(0.89 1.58 228.89);
+  --tsui-info-200: oklch(0.83 1.5 229.33);
+  --tsui-info-300: oklch(0.77 1.42 228.75);
+  --tsui-info-400: oklch(0.7 1.35 229.29);
+  --tsui-info-500: oklch(0.64 1.28 229.04);
+  --tsui-info-600: oklch(0.48 1.04 227.6);
+  --tsui-info-700: oklch(0.39 0.88 225.91);
+  --tsui-info-800: oklch(0.31 0.71 224.85);
+  --tsui-info-900: oklch(0.23 0.54 223.95);
+  --tsui-info-950: oklch(0.08 0.26 220.31);
+}
+
+@utility size-screen {
+  width: 100vw;
+  height: 100vh;
+}
