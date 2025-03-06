@@ -15,7 +15,12 @@ export default defineNuxtConfig({
     plugins: [tailwindcss(), mkcert()],
   },
 
-  modules: ["@nuxt/icon", "@nuxt/content", "@nuxt/eslint", "@nuxtjs/i18n"],
+  modules: [
+    "@nuxt/icon",
+    "@nuxt/content",
+    "@nuxt/eslint",
+    "@nuxtjs/i18n",
+  ],
   css: ["~/assets/styles/main.css"],
   app: {
     rootId: "__giok-po__",
@@ -35,7 +40,9 @@ export default defineNuxtConfig({
       dir: locale.dir,
       code: locale.lang,
       language: locale.language,
-      files: i18nLocalesFiles.flatMap((file) => `${locale.lang}/${file}`),
+      files: i18nLocalesFiles.flatMap(
+        (file) => `${locale.lang}/${file}`,
+      ),
     })) as LocaleObject[],
     defaultLocale: localeLabel.zh,
     strategy: "prefix",
@@ -48,5 +55,8 @@ export default defineNuxtConfig({
       cookieKey: "giok_po_i18n_redirected",
       alwaysRedirect: true,
     },
+  },
+  experimental: {
+    viewTransition: true,
   },
 });
