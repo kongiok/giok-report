@@ -1,4 +1,4 @@
-import { z } from "@nuxt/content";
+import { z } from "zod";
 
 const excerptSchema = z.object({
   type: z.string(),
@@ -25,6 +25,7 @@ const pageExtraSchema = z.object({
   bgImg: z.string().url().optional(),
   excerpt: excerptSchema,
 });
+
 const pageSchema = z.object({
   ...pageBaseSchema.shape,
   ...pageNavigationSchema.shape,
@@ -45,4 +46,20 @@ const greenSchema = pageSchema.extend({
   area: z.string().min(5).max(100).default("green"),
 });
 
-export { politicsSchema, techSchema, projectsSchema, greenSchema };
+enum ContentArea {
+  POLITICS = "politics",
+  TECH = "tech",
+  PROJECTS = "projects",
+  GREEN = "green",
+}
+
+const contentAreaEnum = z.nativeEnum(ContentArea);
+
+export {
+  politicsSchema,
+  techSchema,
+  projectsSchema,
+  greenSchema,
+  ContentArea,
+  contentAreaEnum,
+};

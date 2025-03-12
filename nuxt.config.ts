@@ -14,14 +14,19 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss(), mkcert()],
   },
-
   modules: [
     "@nuxt/icon",
     "@nuxt/content",
     "@nuxt/eslint",
     "@nuxtjs/i18n",
   ],
-  css: ["~/assets/styles/main.css"],
+  css: [
+    "~/assets/styles/main.css",
+    "~/assets/styles/font-iansui.css",
+    "~/assets/styles/font-genyu-min.css",
+    "~/assets/styles/font-genki-gothic.css",
+    "~/assets/styles/font-cascadia-code.css",
+  ],
   app: {
     rootId: "__giok-po__",
     rootTag: "body",

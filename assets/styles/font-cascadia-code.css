@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "CascadiaCode NF";
+  src: url("/assets/fonts/CascadiaCode/CascadiaCodeNF-Regular.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CascadiaCode NF";
+  src: url("/assets/fonts/CascadiaCode/CascadiaCodeNF-Italic.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "CascadiaCode NF";
+  src: url("/assets/fonts/CascadiaCode/CascadiaCodeNF-Bold.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CascadiaCode NF";
+  src: url("/assets/fonts/CascadiaCode/CascadiaCodeNF-BoldItalic.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "CascadiaCode NF";
+  src: url("/assets/fonts/CascadiaCode/CascadiaCodeNF-ExtraLight.otf")
+    format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CascadiaCode NF";
+  src: url("/assets/fonts/CascadiaCode/CascadiaCodeNF-ExtraLightItalic.otf")
+    format("opentype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "CascadiaCode NF";
+  src: url("/assets/fonts/CascadiaCode/CascadiaCodeNF-Light.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CascadiaCode NF";
+  src: url("/assets/fonts/CascadiaCode/CascadiaCodeNF-LightItalic.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "CascadiaCode NF";
+  src: url("/assets/fonts/CascadiaCode/CascadiaCodeNF-SemiLight.otf")
+    format("opentype");
+  font-weight: 350;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CascadiaCode NF";
+  src: url("/assets/fonts/CascadiaCode/CascadiaCodeNF-SemiLightItalic.otf")
+    format("opentype");
+  font-weight: 350;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "CascadiaCode NF";
+  src: url("/assets/fonts/CascadiaCode/CascadiaCodeNF-SemiBold.otf")
+    format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CascadiaCode NF";
+  src: url("/assets/fonts/CascadiaCode/CascadiaCodeNF-SemiBoldItalic.otf")
+    format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}

@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "GenRyuMin2TC";
+  src: url("/assets/fonts/GenRyuMin2TC/GenRyuMin2TC-R.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GenRyuMin2TC";
+  src: url("/assets/fonts/GenRyuMin2TC/GenRyuMin2TC-B.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GenRyuMin2TC";
+  src: url("/assets/fonts/GenRyuMin2TC/GenRyuMin2TC-EL.otf")
+    format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GenRyuMin2TC";
+  src: url("/assets/fonts/GenRyuMin2TC/GenRyuMin2TC-H.otf")
+    format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GenRyuMin2TC";
+  src: url("/assets/fonts/GenRyuMin2TC/GenRyuMin2TC-L.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GenRyuMin2TC";
+  src: url("/assets/fonts/GenRyuMin2TC/GenRyuMin2TC-M.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GenRyuMin2TC";
+  src: url("/assets/fonts/GenRyuMin2TC/GenRyuMin2TC-SB.otf")
+    format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}

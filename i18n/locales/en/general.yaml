@@ -1,4 +1,5 @@
 brand:
   title: Giok Report
 
-general:
+error:
+  404: "The page {page} you've searching for could not be found!"
